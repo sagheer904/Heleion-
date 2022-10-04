@@ -1,0 +1,496 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* #main{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    border: 1px solid;
+    box-sizing: border-box;
+    overflow: hidden;
+} */
+
+#block1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    box-sizing: border-box;
+    background-image: url(/helion/heilon/slide_7-1-copyright1.jpg);
+    background-position: center;
+    background-size: cover;
+    animation: block 25s infinite  linear;
+    overflow: hidden;
+    /* visibility: hidden;  */
+    /* z-index: 1; */
+
+    
+
+}
+@keyframes block{
+
+     0%{
+        visibility: visible; 
+
+     }
+     10%{
+        visibility: hidden;
+        transform: scale(1.1);
+
+     
+
+     }
+     20%{
+        visibility: hidden; 
+
+ 
+     }
+     30%{
+         visibility: hidden;
+     }
+    40%{
+         visibility: hidden;
+         
+     }
+     50%{
+         visibility: hidden;
+     
+ 
+     }
+     60%{
+         visibility: hidden;
+         
+ 
+     }
+     70%{
+         visibility: hidden;
+     
+ 
+     }
+    80%{
+         visibility: hidden;
+     }
+     90%{
+         visibility:hidden;
+     }
+     100%{
+        visibility:hidden;
+         
+     }
+
+} 
+#block2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    box-sizing: border-box;
+    background-image: url(/helion/heilon/slide_7-2-copyright1.jpg);
+    background-position: center;
+    background-size: cover;
+    animation: block1 25s infinite  linear ;
+    overflow: hidden;
+    /* visibility: hidden;  */
+
+
+
+ } 
+    @keyframes block1{
+        0%{
+            visibility: hidden; 
+        
+
+        }
+        10%{
+            visibility: hidden; 
+
+        }
+        20%{
+            visibility: visible; 
+
+
+
+    
+        }
+        30%{
+            visibility: hidden; 
+            transform: scale(1.1);
+
+        }
+        40%{
+            visibility: hidden;
+            
+        }
+        50%{
+            visibility: hidden;
+        
+    
+        }
+        60%{
+            visibility: hidden;
+            
+    
+        }
+        70%{
+            visibility: hidden;
+        
+    
+        }
+        80%{
+            visibility: hidden;
+        }
+        90%{
+            visibility:hidden;
+        }
+        100%{
+            visibility:hidden;
+            
+        }
+
+    }
+
+#block{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    box-sizing: border-box;
+    background-image: url(/helion/heilon/slide_7-3-copyright1.jpg);
+    background-position: center;
+    animation: block2 25s infinite linear ;
+    background-size: cover;
+    /* visibility: hidden;   */
+
+}
+@keyframes block2{
+
+    0%{
+        visibility: hidden; 
+    
+
+     }
+     10%{
+        visibility: hidden; 
+
+     }
+     20%{
+        visibility: hidden; 
+
+
+
+ 
+     }
+     30%{
+         visibility: hidden;
+
+     }
+    40%{
+         visibility: visible;
+         
+     }
+     50%{
+         visibility: hidden;
+        transform: scale(1.1);
+
+
+     
+ 
+     }
+     60%{
+         visibility: hidden;
+         
+ 
+     }
+     70%{
+         visibility: hidden;
+
+     
+ 
+     }
+    80%{
+         visibility: hidden;
+     }
+     90%{
+         visibility:hidden;
+     }
+     100%{
+        visibility:hidden;
+         
+     }
+
+ }
+
+
+#block3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    box-sizing: border-box;
+    background-image: url(/helion/heilon/slide_7-4-copyright1.jpg);
+    background-position: center;
+    background-size: cover;
+    animation: block3 25s infinite  linear ;
+     /* visibility: hidden;  */
+
+}
+@keyframes block3{
+
+    0%{
+        visibility: hidden; 
+    
+
+     }
+     10%{
+        visibility: hidden; 
+
+     }
+     20%{
+        visibility: hidden; 
+
+
+
+ 
+     }
+     30%{
+         visibility: hidden;
+
+     }
+    40%{
+         visibility: hidden;
+         
+     }
+     50%{
+         visibility: hidden;
+
+     
+ 
+     }
+     60%{
+         visibility: visible;
+         
+ 
+     }
+     70%{
+         visibility: hidden;
+        transform: scale(1.1);
+
+     
+ 
+     }
+    80%{
+         visibility: hidden;
+     }
+     90%{
+         visibility:hidden;
+
+     }
+     100%{
+        visibility:hidden;
+         
+     }
+
+ 
+
+
+
+}
+
+
+#block4{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    box-sizing: border-box;
+    background-image: url(/helion/heilon/slide_7-5-copyright1.jpg);
+    background-position: center;
+    background-size: cover;
+    animation: block4 25s infinite  linear ;
+    /* visibility: hidden;  */
+
+}
+@keyframes block4{
+    0%{
+        visibility: hidden; 
+    
+
+     }
+     10%{
+        visibility: hidden; 
+
+     }
+     20%{
+        visibility: hidden; 
+
+
+
+ 
+     }
+     30%{
+         visibility: hidden;
+
+     }
+    40%{
+         visibility: hidden;
+         
+     }
+     50%{
+         visibility: hidden;
+
+     
+ 
+     }
+     60%{
+         visibility: hidden;
+         
+ 
+     }
+     70%{
+         visibility: hidden;
+     
+ 
+     }
+    80%{
+         visibility: visible;
+     }
+     90%{
+         visibility:hidden;
+        transform: scale(1.1);
+
+     }
+     100%{
+         visibility: visible;
+        transform: scale(1.1);
+
+
+     }
+    
+}
+.logo{
+    position: absolute;
+    top: 5vh;
+    left: 10%;
+    /* z-index: 10; */
+}
+#mainb{
+    height: 40vh;
+    width: 80%;
+    border: 1px solid white;
+    animation: move 5s infinite  linear;
+    margin: 20vh  auto ;
+    opacity: 0;
+}
+@keyframes move{
+    0%{
+        opacity: 1;
+        margin-top:30vh;
+    }
+    50%{
+        opacity: 1;
+        margin-top:20;
+
+    }
+    100%{
+        opacity: 1;
+        margin-top:20;
+    }
+
+}
+#mainh{
+    font-size: 70px;
+    text-align: center;
+    /* text-transform:lowercase; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mainh1{
+    font-size: 70px;
+    /* text-align: center; */
+    /* text-transform:lowercase; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mainp{
+    font-size: 20px;
+    text-align: center;
+    text-transform:uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main1{
+    height: 40vh;
+    width: 80%;
+    border: 1px solid white;
+    animation: azab 8s infinite  linear; 
+    animation-delay:4s ;
+    margin-top: 20vh  ;
+    opacity: 0;
+}
+@keyframes azab{
+    0%{
+        margin-left: 50%;
+        /* opacity: 1; */
+
+    }   
+    10%{
+        margin-left:10%;
+        opacity: 1;
+    }
+    100%{
+        margin-left:10%;
+        opacity: 1;
+
+    }
+}
+#main2{
+    height: 40vh;
+    width: 80%;
+    border: 1px solid white;
+    animation: azab1 8s infinite  linear; 
+    animation-delay:8s ;
+    margin-top: 20vh  ;
+    opacity: 0;
+}
+@keyframes azab1{
+    0%{
+        margin-left: 50%;
+        /* opacity: 1; */
+
+    }   
+    10%{
+        margin-left:10%;
+        opacity: 1;
+    }
+    100%{
+        margin-left:10%;
+        opacity: 1;
+
+    }
+}
+#main3{
+    height: 40vh;
+    width: 80%;
+    border: 1px solid white;
+    animation: azab1 2s infinite  linear; 
+    /* animation-delay:10s ; */
+    margin-top: 20vh  ;
+    opacity: 0;
+}
+@keyframes azab1{
+    0%{
+        margin-left: 50%;
+        /* opacity: 1; */
+
+    }   
+    10%{
+        margin-left:10%;
+        opacity: 1;
+    }
+    100%{
+        margin-left:10%;
+        opacity: 1;
+
+    }
+}

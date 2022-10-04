@@ -1,0 +1,403 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#nav{
+    height: 15vh;
+    width: 100%;
+    box-shadow: 2px 0 5px black;
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+    /* padding: 1px; */
+    
+    
+    /* position: relative; */
+}
+#logo{
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+#bar{
+    /* border: 1px solid; */
+    display: inline-block;
+    width: 60%;
+    margin-left: 10%;
+}
+#li{
+    display: inline-block;
+    list-style: none;
+    margin: 1%;
+}
+#a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid; */
+    position: relative;
+    overflow: hidden;
+    
+}
+#a::before{
+    content:'';
+     border: 1px solid;
+     width: 100%;
+     top: 1.5vh;
+     position: absolute;
+     /* left: -100%; */
+     transform: scale(0,1);
+     transition: all 0.35s;
+     /* transform-origin:  left  ; */
+}
+#a:hover::before{
+    /* transform-origin: left ; */
+
+    transform: scale(1,1);
+    margin-left: 0%;
+}
+#icon{
+    font-size: 30px;
+    margin-left: 80%;
+    margin-top: -5vh;
+    float: left;
+
+    
+}
+#icon1{
+    font-size: 30px;
+    margin-left: 84%;
+    margin-top: -5vh;
+    float: left;  
+}
+#main{
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid whitesmoke ;
+    position: relative;
+    /* background: red; */
+    
+}
+#mainb{
+    height: 70vh;
+    width: 500px;
+    /* border: 1px solid; */
+    margin-top: 20vh;
+    margin-left: 5%;
+    
+    position: absolute;
+}
+#line{
+    position: absolute;
+}
+#mainh{
+    font-size: 70px;
+    text-transform: capitalize;
+    font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+#mainp{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: grey;
+    margin-top: 5vh;
+}
+#btn{
+    height: 7vh;
+    width: 200px;
+    margin-top: 2vh;
+    background:rgb(248, 52, 52);
+    font-size: 17px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    border-radius: 5px;
+
+
+}
+#btn:hover{
+    background: white;
+    box-shadow: 2px 2px 10px black;
+}
+#mainb1{
+    height: 70vh;
+    width: 600px;
+    /* border: 1px solid; */
+    margin-top: 20vh;
+    margin-left: 50%;
+    background-image: url(../helion/pic/decoration-abstraction-copyright.png);
+    background-size: cover;
+    background-position:center ;
+
+}
+#p2{
+    min-height: 250vh;
+    width: 100%;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+}
+#p2b{
+    position: relative;
+    /* border: 1px solid; */
+}
+.close{
+    display: none;
+}
+#tab_content{
+    min-height: 200vh;
+    /* border: 1px solid;s */
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 10vh;
+    opacity: 0;
+    left: 5%;
+    width: 90%;
+}
+.close:checked + label + #tab_content {
+    z-index: 2;
+    opacity: 1;
+    transition: all 0.35s;
+
+}
+.close:checked + .tab-label{
+    color: rgb(248, 52, 52);
+}
+#b1{
+    height: 40vh;
+    width: 400px;
+    /* border: 1px solid; */
+    margin-top: 0;
+    position: relative;
+    
+
+}
+#b2{
+    height:70vh;
+    width: 400px;
+    /* border: 1px solid; */
+    position: relative;
+
+
+}
+#b3{
+    height: 50vh;
+    width: 400px;
+    /* border: 1px solid; */
+    margin-top: 0vh;
+    position: relative;
+    
+}
+#b4{
+    height:70vh;
+    width: 400px;
+    /* border: 1px solid; */
+    margin-top: -30vh;
+    position: relative;
+
+
+}
+#b5{
+    height: 50vh;
+    width: 400px;
+    /* border: 1px solid; */
+    margin-top: 0vh;
+    position: relative;
+
+
+}
+#b6{
+    height: 40vh;
+    width: 400px;
+    /* border: 1px solid; */
+    margin-top: -20vh;
+    position: relative;
+
+}
+#b7{
+    height: 40vh;
+    width: 400px;
+    /* border: 1px solid; */
+    margin-top: -10vh;
+    position: relative;
+
+
+}
+#b9{
+    height: 50vh;
+    width: 400px;
+    /* border: 1px solid; */
+    margin-top: -30vh;
+    position: relative;
+
+
+}
+#b10{
+    height: 70vh;
+    width: 400px;
+    /* border: 1px solid; */
+    margin-top: -10vh;
+    position: relative;
+
+
+}
+#b11{
+    height: 60vh;
+    width: 400px;
+    /* border: 1px solid; */
+    margin-top: 0;
+    position: relative;
+
+
+}
+#b12{
+    height: 80vh;
+    width: 400px;
+    /* border: 1px solid; */
+    margin-top: -20vh;
+    position: relative;
+
+
+}
+#b8{
+    height: 40vh;
+    width: 400px;
+    /* border: 1px solid; */
+    margin-top: 0;
+    position: relative;
+
+
+}
+#tab{
+    float: left;
+    margin-left: 2%;
+    /* border: 1px solid; */
+    margin-top: 5vh;
+    /* position: relative; */
+    
+
+}
+.tab-label{
+    /* border: 1px solid; */
+    position: relative;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: lighter;
+    
+
+    
+}
+.tab-label:hover{
+    color: rgb(248, 52, 52);
+}
+.tab-label::before{
+    content: "";
+    position: absolute;
+    
+    width: 100%;
+    border: 1px solid black;
+    top: 1.5vh;
+    transform: scale(0);
+    transition: all 0.35s;
+    
+    
+}
+.tab-label:hover::before{
+    transform: scale(1);
+
+}
+
+#img1{
+    height: 100%;
+    width: 100%;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 68, 0, 0.712);
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+#b1:hover #overlay{
+    opacity: 1;
+}
+#b2:hover #overlay{
+    opacity: 1;
+}
+#b3:hover #overlay{
+    opacity: 1;
+}#b4:hover #overlay{
+    opacity: 1;
+}#b5:hover #overlay{
+    opacity: 1;
+}#b6:hover #overlay{
+    opacity: 1;
+}#b7:hover #overlay{
+    opacity: 1;
+}#b8:hover #overlay{
+    opacity: 1;
+}#b9:hover #overlay{
+    opacity: 1;
+}
+#b10:hover #overlay{
+    opacity: 1;
+}#b11:hover #overlay{
+    opacity: 1;
+}#b12:hover #overlay{
+    opacity: 1;
+}
+#overlayp{
+    font-size: 17px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-top: 5vh;
+    color: white;
+    margin-left: 40%;
+    width: max-content;
+    /* border: 1px solid; */
+    position: relative;
+    cursor: pointer;
+
+
+
+}
+#overlayp::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    border: 1px solid white;
+
+    transform: scale(0,1);
+    transform-origin: right top;
+    transition: transform 0.35s;
+    
+    
+    
+}
+#overlayp:hover::before{
+    transform: scale(1,1);
+    transform-origin:left top;
+    /* margin-left: 100%; */
+    
+}
+
+#overlayh{
+    font-size: 30px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-top: 5vh;
+    color: white;
+    text-align: center  ;
+    font-weight: lighter;
+    
+
+
+
+}
+.h{
+    margin-top: 20vh;
+}

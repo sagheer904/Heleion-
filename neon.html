@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background: black;
+            display: flex;
+            justify-content: center;
+        }
+        #a{
+           text-decoration: none;
+           text-align: center;
+           margin-top: 10vh;
+           color: rgb(41, 241, 248);
+           font-size: 17px;
+           letter-spacing: 4px;
+           text-transform: uppercase;
+           font-family: cursive;
+           height: 7vh;
+           width: 200px;
+           line-height: 6vh;
+           position: relative;
+           overflow: hidden;
+           
+           /* border: 1px solid white; */
+
+
+
+
+        }
+        #a:hover{
+            color: black;
+            box-shadow: 0 0 20px rgb(41, 241, 248), 0 0 50px rgb(41, 241, 248), 0 0 200px rgb(41, 241, 248);
+            background: rgb(41, 241, 248);
+        }
+        #bt{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            background: linear-gradient(to right,transparent,rgb(41, 241, 248));
+            top: 0;
+            left: -100%;
+            animation: bt 1s linear infinite;
+            /* animation-delay: 0.25s; */
+        }
+        @keyframes bt {
+            0%{
+                left: 0;
+            }
+            50%,100%{
+                left: 100%;
+            }
+        }
+        
+        #bt1{
+            width: 1px;
+            height: 100%;
+            position: absolute;
+            background: linear-gradient(to bottom,transparent,rgb(41, 241, 248));
+            left:99% ;
+            top: -100%;
+            animation: bt1 1s linear infinite;
+            animation-delay: 0.25s;
+
+
+        }
+    
+        @keyframes bt1 {
+            0%{
+                top: 0;
+                
+            }
+            50%,100%{
+                top: 100%;
+                
+
+            }
+        }
+        #bt2{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            background: linear-gradient(to left,transparent,rgb(41, 241, 248));
+            top: 98%;
+            right: -100%;
+            animation: bt2 1s linear infinite;
+            animation-delay: 0.50s;
+
+
+        }
+    
+        @keyframes bt2 {
+            0%{
+                right: -100%;
+            }
+            50%,100%{
+                right:100%;
+            }
+        }
+        #bt3{
+            width: 1px;
+            height: 100%;
+            position: absolute;
+            background: linear-gradient(to top,transparent,rgb(41, 241, 248));
+            left:0% ;
+            top: 200%;
+            animation: bt3 1s linear infinite;
+            animation-delay: 0.75s;
+
+
+        }
+    
+        @keyframes bt3 {
+            0%{
+                top: 100%;
+            }
+            50%,100%{
+                top:-100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <a id="a" href="">
+        <span id="bt"></span>
+        <span id="bt1"></span>
+        <span id="bt2" ></span>
+        <span id="bt3" ></span>
+        learn more
+
+
+
+    </a>
+    
+</body>
+</html>
